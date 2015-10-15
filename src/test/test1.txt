@@ -1,0 +1,5 @@
+Table: "Somethingf00liSh"
+
+Table: 'a string literal'
+
+Table: 'another \'String\' Literal'

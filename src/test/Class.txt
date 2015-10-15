@@ -1,0 +1,16 @@
+Module: PathfinderClass
+Author: Jaymes Winger
+Source: http://paizo.com/pathfinderRPG/prd/
+License: OPEN GAME LICENSE Version 1.0a
+
+Table: ClassSelect
+Type: Dictionary
+Visibility: Utility
+barbarian: {@fort=[Saves strong], @ref=[Saves weak], @will=[Saves weak]}
+
+Table: Saves
+Type: Dictionary
+Visibility: Utility
+strong: 2 + (@level / 2)
+weak: floor(@level / 3)
+
