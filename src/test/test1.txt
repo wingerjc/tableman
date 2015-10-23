@@ -1,5 +1,27 @@
-Table: "Somethingf00liSh"
+# This is a comment
 
-Table: 'a string literal'
+Author: Jaymesw
 
-Table: 'another \'String\' Literal'
+Source: this is a
+  test
+  to
+  see if multiple
+  lines work
+
+License: OGL v9.0
+
+// This is the second comment
+
+/* This should also be a comment */
+
+/* This is a comment that spans
+ * multiple lines! */
+
+Table: Somethingf00liSh # comment on a line.
+an_identifier
+
+Table: an_identifier // other comment on a line.
+_123
+
+Table: _id3nt1f13r_ /* last line comment */
+_xy1
